@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(191, 231, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    text-align: center;
+    background-color: beige;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px rgb(11, 222, 212),
+    -20px -20px 60px #fff;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+.display{
+    font-size: 48px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #e4dbdb;
+    border-radius: 10%;
+    margin-bottom: 30px;
+    box-shadow: inset 20px 20px 20px #948989,
+    inset -20px -20px 60px #fff;
+    color: #333;
+}
+
+button{
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(20, 166, 186);
+    color: antiquewhite;
+    border: none;
+    cursor: pointer;
+    box-shadow: 20px 20px 20px rgb(145, 153, 153),
+    -20px -20px 60px #fff;
+
+    transition: all 0.2s ease-in-out; 
+}
+
+button:hover{
+    transition: translate(5px ,5px);
+    box-shadow: 5px 5px 5px #d9d9d9,
+    -5px -5px 15px #ffffff;
+}
+
+.start{
+    background-color: #73c7ac;
+}
+
+.stop{
+    background-color: #e77e8c;
+}
+
+.reset{
+    background-color: #f7af5a;
+}
